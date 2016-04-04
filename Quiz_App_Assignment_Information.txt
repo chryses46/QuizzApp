@@ -1,0 +1,15 @@
+Quizz App:
++Answer no less than 5 questions (one at a time, no skip)
++give a way for the user to answer
++compare user answer to correct answer
++determine score, show score at the end
++Make new game button
++Use JS Objects for questions
++consider storing question objects in an array
+
+Optional Features:
++Let user know what step they are in with the quiz. 
++Let them know score so far in game
++Let user know if previous response was correct
++display correct answer if answered incorrectly
++display some information related to the correct answer. 
