@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AMC's The Walking Dead: Quiz!</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- Introduction page -->
+<section class="container-fluid quiz intro" id="quiz intro">
+
+	<div class="title" id="title">
+		<h1>AMC's The Walking Dead</h1>
+		<h2>An Interactive Quiz Made by Daniel Frank</h2>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 new easy home" id="new easy">New Game: Easy</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 new hard home" id="new hard">New Game: Hard</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 amcWebsite home" id="amcWebsite">AMC's Website</div>
+	</div>
+
+</section>
+
+<!-- Quiz Pages -->
+<section class="container-fluid quiz game" id="quiz game">
+
+	<div class="question" id="question"><h1>What color is Blue?</h1></div>
+	<div class="row">
+	<div class="col-sm-6 answer 1" id="answer 1">Red</div>
+	<div class="col-sm-6 answer 2" id="answer 2">White</div>
+	</div>
+	<div class="row">
+	<div class="col-sm-6 answer 3" id="answer 3">Blue</div>
+	<div class="col-sm-6 answer 4" id="answer 4">Black</div>
+	</div>
+	<div class="restart" id="restart">Restart Game</div> <!-- Will restart current game only -->
+	<div class="questCount" id="questCount">Question: 1/5</div>
+
+</section>
+
+<!-- Ending Page -->
+<section class="container-fluid quiz end" id="quiz end">
+
+
+	<div class="outro" id="outro"><h1>You Won! OR You Lost!</h1></div>
+
+	<div class="row">
+	<div class="col-sm-12 score" id="score">Score: 100!</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 new easy end" id="new easy">New Game: Easy</div>
+	
+		<div class="col-sm-4 new hard end" id="new hard">New Game: Hard</div>
+	
+		<div class="col-sm-4 amcWebsite end" id="amcWebsite">AMC's Website</div>
+	</div>
+	<!-- this page brings back the Intro Page icons (new game etc.)-->
+
+</section>
+	
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+</body>
+
+</html>
